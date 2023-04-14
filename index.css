@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+body{
+  margin: 0;
+  background: #1C1C1C;
+  font-family:'inter', sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 729px;
+  width: 550px;
+  margin: 0 auto;
+  background: #F4F4F4;
+}
+
+.heading{
+  height: 285px;
+  background: #6943FF;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  height: 83px;
+  width: 117px;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 24px;
+  text-align: center;
+  color: #FFF;
+  background: transparent;
+  border: 2px solid #B295FF;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+button{
+  height: 42px;
+  width: 117px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #3D3D3D;
+  cursor: pointer;
+  transition: 0.25s linear
+}
+
+button:active{
+  transform: scale(0.95)
+}
+
+/*Typography*/
+
+h2{
+  
+  border: 2px solid #B295FF;
+  border-radius: 5px; 
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  margin-bottom: 0;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #CCC1FF;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: white;
+}
+
+.groups-container{
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #1F2937;
+}
+
+.group{
+  height: 108.5px;
+  width: 500px;
+  background: #273549;
+  text-align: center;
+}
+
